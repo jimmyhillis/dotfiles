@@ -1,0 +1,20 @@
+[ui]
+# Name data to appear in commits
+username = Jimmy Hillis <jimmy@hatchd.com.au>
+commitsubrepos = no
+
+[extensions]
+progress=
+rebase =
+hgext.convert=
+color=
+graphlog=
+hgshelve=/Users/jimmyhillis/.hgext/hgshelve/hgshelve.py
+
+[color]
+status.modified = blue red_background
+status.added = green
+status.removed = red blue_background
+status.deleted = cyan
+status.unknown = magenta
+status.ignored = black

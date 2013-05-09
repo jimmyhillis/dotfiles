@@ -1,0 +1,5 @@
+[user]
+	name = Jimmy Hillis
+	email = jimmy@hillis.me
+[credential]
+	helper = osxkeychain
