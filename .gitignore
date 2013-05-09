@@ -1,0 +1,13 @@
+# ignore everything
+*
+
+# except my dotfiles
+!.gitignore
+!.vimrc
+!.profile
+!.fabricrc
+!.gitconfig
+!.hgrc
+!.hgext/*
+!.reviewboardrc
+!.sqliterc
