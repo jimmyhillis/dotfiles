@@ -3,3 +3,10 @@
 	email = jimmy@hillis.me
 [credential]
 	helper = osxkeychain
+[color]
+    branch = on
+    diff = on
+    status = on
+    ui = on
+[core]
+	pager = cat
