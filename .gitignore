@@ -11,3 +11,5 @@
 !.hgext/*
 !.reviewboardrc
 !.sqliterc
+!.hgitnore
+*.pyc
