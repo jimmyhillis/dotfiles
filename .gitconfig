@@ -4,9 +4,9 @@
 [credential]
 	helper = osxkeychain
 [color]
-    branch = on
-    diff = on
-    status = on
+    diff = auto
+    status = auto
+    branch = auto
     ui = on
 [core]
 	pager = cat
