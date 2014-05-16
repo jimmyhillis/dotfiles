@@ -1,0 +1,34 @@
+'editor':
+  'fontSize': 13
+  'fontFamily': 'SourceCodePro-Light'
+  'tabLength': 4
+  'preferredLineLength': 79
+  'lineHeight': 1.5
+  'showIndentGuide': true
+'core':
+  'destroyEmptyPanes': false
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+    '.hg'
+  ]
+  'themes': [
+    'spacegray-light-ui'
+    'base16-ocean-dark-spacegray'
+  ]
+'exception-reporting':
+  'userId': '1ce3e62a-121f-a516-79f3-d5a9a74998f0'
+'release-notes':
+  'viewedVersion': '0.95.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '09dee2d01933185eff881e1cf699377b7b435545'
+'tree-view':
+  'showOnRightSide': true
+'syntax-settings':
+  'source':
+    'jade':
+      'editorSettings':
+        'tabLength': 2
