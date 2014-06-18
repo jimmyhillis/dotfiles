@@ -1,34 +1,53 @@
 'editor':
-  'fontSize': 13
-  'fontFamily': 'SourceCodePro-Light'
+  'fontSize': 15
   'tabLength': 4
-  'preferredLineLength': 79
-  'lineHeight': 1.5
+  'fontFamily': 'SourceCodePro-ExtraLight'
   'showIndentGuide': true
+  'lineHeight': 1.5
+  'showInvisibles': true
 'core':
   'destroyEmptyPanes': false
   'ignoredNames': [
     '.git'
+    '.hg'
     '.svn'
     '.DS_Store'
-    '.hg'
+    'Thumbs.db'
   ]
   'themes': [
-    'spacegray-light-ui'
-    'base16-ocean-dark-spacegray'
+    'seti-ui'
+    'seti-syntax'
   ]
+'tree-view':
+  'showOnRightSide': true
+'syntax-settings':
+  'source':
+    'coffee':
+      'editorSettings':
+        'tabLength': 2
+    'css':
+      'scss':
+        'editorSettings':
+          'tabLength': 2
+    'jade':
+      'editorSettings':
+        'tabLength': 2
+    'json':
+      'editorSettings':
+        'tabLength': 2
+    'ruby':
+      'editorSettings':
+        'tabLength': 2
+      'rails':
+        'editorSettings':
+          'tabLength': 2
+'whitespace':
+  'ignoreWhitespaceOnCurrentLine': false
 'exception-reporting':
-  'userId': '1ce3e62a-121f-a516-79f3-d5a9a74998f0'
+  'userId': 'cf1d17eb-0bb9-913e-f978-016ef905933b'
 'release-notes':
   'viewedVersion': '0.95.0'
 'welcome':
   'showOnStartup': false
 'metrics':
-  'userId': '09dee2d01933185eff881e1cf699377b7b435545'
-'tree-view':
-  'showOnRightSide': true
-'syntax-settings':
-  'source':
-    'jade':
-      'editorSettings':
-        'tabLength': 2
+  'userId': 'e0441e87f92b8559e07a2c17e95d48361164f735'
