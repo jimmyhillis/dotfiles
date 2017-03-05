@@ -1,53 +1,83 @@
-'editor':
-  'fontSize': 15
-  'tabLength': 4
-  'fontFamily': 'SourceCodePro-ExtraLight'
-  'showIndentGuide': true
-  'lineHeight': 1.5
-  'showInvisibles': true
-'core':
-  'destroyEmptyPanes': false
-  'ignoredNames': [
-    '.git'
-    '.hg'
-    '.svn'
-    '.DS_Store'
-    'Thumbs.db'
-  ]
-  'themes': [
-    'seti-ui'
-    'seti-syntax'
-  ]
-'tree-view':
-  'showOnRightSide': true
-'syntax-settings':
-  'source':
-    'coffee':
-      'editorSettings':
-        'tabLength': 2
-    'css':
-      'scss':
-        'editorSettings':
-          'tabLength': 2
-    'jade':
-      'editorSettings':
-        'tabLength': 2
-    'json':
-      'editorSettings':
-        'tabLength': 2
-    'ruby':
-      'editorSettings':
-        'tabLength': 2
-      'rails':
-        'editorSettings':
-          'tabLength': 2
-'whitespace':
-  'ignoreWhitespaceOnCurrentLine': false
-'exception-reporting':
-  'userId': 'cf1d17eb-0bb9-913e-f978-016ef905933b'
-'release-notes':
-  'viewedVersion': '0.95.0'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': 'e0441e87f92b8559e07a2c17e95d48361164f735'
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "5a3e853a-873a-460c-8e0a-cb654c6fd15c"
+  core:
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "themed-settings"
+      "syntax-settings"
+      "linter-jshint"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "OperatorMono-Light"
+    invisibles: {}
+    lineHeight: 1.4
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "cf1d17eb-0bb9-913e-f978-016ef905933b"
+  linter:
+    errorPanelHeight: 127
+    ignoredLinterErrors: [
+      "jshint"
+    ]
+    showErrorPanel: false
+  "linter-eslint": {}
+  "linter-swiftc": {}
+  metrics:
+    userId: "e0441e87f92b8559e07a2c17e95d48361164f735"
+  "omnisharp-atom":
+    codeFormat: false
+    codeLens: false
+    enhancedHighlighting: true
+  "one-dark-ui":
+    layoutMode: "Spacious"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  "syntax-settings":
+    source:
+      coffee:
+        editorSettings:
+          tabLength: 2
+      cs:
+        editorSettings:
+          tabLength: 2
+      css:
+        scss:
+          editorSettings:
+            tabLength: 2
+      jade:
+        editorSettings:
+          tabLength: 2
+      json:
+        editorSettings:
+          tabLength: 2
+      ruby:
+        editorSettings:
+          tabLength: 2
+        rails:
+          editorSettings:
+            tabLength: 2
+  "tree-view":
+    hideVcsIgnoredFiles: true
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".cs":
+  editor:
+    tabLength: 2
+".css.scss.source":
+  editor:
+    tabLength: 2
+".jade.source":
+  editor:
+    tabLength: 2
+".sass.source":
+  editor:
+    tabLength: 2
+".source.swift":
+  editor:
+    tabLength: 4
